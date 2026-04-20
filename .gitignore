@@ -1,0 +1,34 @@
+# Secrets & credentials
+agent/.env
+agent/auth.json
+agent/gcloud-sa-key.json
+agent/mcp-oauth/
+mcp-credentials.json
+
+# Sessions & history
+agent/sessions/
+agent/run-history.jsonl
+agent/session-viewed.json
+
+# Caches & runtime state
+agent/node_modules/
+agent/bin/
+agent/pi-fff/
+agent/git/
+agent/mcp-cache.json
+agent/mcp-npx-cache.json
+agent/mcp.socket-path
+agent/current-mode
+agent/amplike.json
+agent/package-lock.json
+bin/
+
+# Extension dependencies & caches
+agent/extensions/node_modules/
+agent/extensions/package-lock.json
+agent/extensions/pi-fff.json
+
+# Installed packages (git clones, symlinks)
+agent/git/
+agent/skills/find-skills
+agent/skills/mintlify

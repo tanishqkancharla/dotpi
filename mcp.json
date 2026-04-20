@@ -1,0 +1,27 @@
+{
+  "servers": {
+    "discord": {
+      "transport": {
+        "type": "stdio",
+        "command": "/Users/tanishqkancharla/Projects/discord-mcp/launch.sh"
+      }
+    },
+    "css-studio": {
+      "transport": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "cssstudio"]
+      }
+    },
+    "slack": {
+      "transport": {
+        "type": "http",
+        "url": "https://mcp.slack.com/mcp"
+      },
+      "auth": {
+        "type": "oauth2",
+        "clientId": "3660753192626.8903469228982"
+      }
+    }
+  }
+}

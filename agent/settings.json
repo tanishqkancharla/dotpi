@@ -1,0 +1,18 @@
+{
+  "lastChangelogVersion": "0.67.68",
+  "packages": [
+    "https://github.com/Gurpartap/pi-mermaid",
+    "npm:pi-fff"
+  ],
+  "theme": "dark",
+  "enabledModels": [
+    "anthropic/claude-sonnet-4-6",
+    "anthropic/claude-opus-4-6",
+    "openai/gpt-5.4",
+    "google-vertex/gemini-3.1-pro-preview",
+    "google-vertex/gemini-3-flash-preview"
+  ],
+  "defaultThinkingLevel": "medium",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-opus-4-6"
+}
